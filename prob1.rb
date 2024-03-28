@@ -11,4 +11,6 @@ if response.code == 200
   end
   avg = sum / 24
   puts "Average temperature for 2024-03-26: #{avg.round(2)}F"
+elsif
+  puts "error: #{response.code}"
 end
